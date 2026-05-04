@@ -10,7 +10,7 @@ export const firebaseConfig = {
 };
 
 // Google Apps Script API Configuration
-export const GAS_API_URL = import.meta.env.VITE_GAS_API_URL || "https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec";
+export const GAS_API_URL = import.meta.env.VITE_GAS_API_URL || "https://script.google.com/macros/s/AKfycbxVGPygavvON2AKM-aTDPuKXQS0IDdc-ASj4wB7gCwqL4gldI8e9-r7zJC_EbI8tcts/exec";
 
 // Validate configuration
 if (!firebaseConfig.databaseURL) {
