@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { useDashboardStore } from '../hooks/useDashboardStore';
-import SummaryCards from './SummaryCards';
-import DataTable from './DataTable';
-import FilterBar from './FilterBar';
+import SummaryCards from '../components/SummaryCards';
+import DataTable from '../components/DataTable';
+import FilterBar from '../components/FilterBar';
 
 /**
  * Dashboard Page Component
